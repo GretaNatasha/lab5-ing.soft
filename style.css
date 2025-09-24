@@ -1,0 +1,70 @@
+/* Colores de tu paleta */
+:root {
+    --color-red: #F06260;
+    --color-pink: #F5A89D;
+    --color-cream: #F8D8B8;
+    --color-teal: #60C0B8;
+}
+
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: 'Outfit', sans-serif; /* Fuente Outfit para el texto del cuerpo */
+    background-color: var(--color-cream); /* Color crema suave para el fondo */
+}
+
+/* Estilos para el encabezado del blog */
+.blog-header {
+    background-color: var(--color-red) !important; /* Rojo para el encabezado */
+    color: white;
+}
+
+/* Estilos para los títulos y subtítulos */
+h1, h2, h5 {
+    font-weight: 700; /* Hace que los títulos sean negrita (bold) */
+    font-family: 'Outfit', sans-serif; /* Aseguramos que Outfit bold se aplique */
+}
+
+/* Colores para los títulos de las publicaciones */
+.post-title-1 {
+    color: var(--color-teal) !important; /* Verde azulado para el primer título */
+}
+
+.post-title-2 {
+    color: var(--color-pink) !important; /* Rosa para el segundo título */
+}
+
+
+/* Estilos adicionales para mejorar la estética */
+.card-body {
+    background-color: #ffffff; /* Fondo blanco para las tarjetas */
+    border-radius: 8px;
+    padding: 2rem; /* Más espacio dentro de las tarjetas */
+}
+
+/* Estilo para la línea divisoria (hr) */
+hr {
+    border-top: 1px solid var(--color-cream); /* Un color de línea más sutil */
+    margin: 1.5rem 0; /* Espaciado para la línea */
+}
+
+/* Justificar los párrafos */
+.card-body p {
+    text-align: justify;
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+}
+
+/* Estilos para los elementos de la lista */
+ul {
+    list-style-type: disc; /* Vuelve a poner los puntos en la lista */
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Mejorar el contraste de los enlaces en el navbar */
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
